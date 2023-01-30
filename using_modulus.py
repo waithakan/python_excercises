@@ -1,7 +1,7 @@
 #using modulus to  print even and odd numbers
 #even number
 number = int(input("Please enter an even number: "))
-if (number%2 == 0):
+if (number%2 == 0):#mean that an even number divide by 2 return 0, so it qualifies to be an even number
     print(number, "is an even number")
 else:
     print(number, "is not an even number")
